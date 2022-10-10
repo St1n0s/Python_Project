@@ -13,60 +13,62 @@ def is_valide_drivernaam(drivernaam):
 
 if antwoord.lower()=='ja':
  
-   naamantwoord=input('Geef je naam op')
+   naamantwoord=input('Geef een coureurs naam op')
    check_valide_driveraam=is_valide_drivernaam(naamantwoord)
    if check_valide_driveraam:
 
      print('\n\nIts lights out and away we go!\nGeef bij iedere vraag het juiste antwoord(GEEN HOOFDLETTERS).\n\n')
 
-     antwoord=input('Vraag 1: Welke coureur was in het 2006 kampioenschap voor 30 seconden kampioen?\n')
+     antwoord=input('Vraag 1: Welke coureur was in het 2008 kampioenschap voor 30 seconden kampioen?\n')
      if antwoord.lower()=='felippe massa' or antwoord.lower()=='felippe massa':
         punten += 1
-        print('goed!')
+        print('Massa was voor maar 30 sec een kampioen, helaas had Hamilton iemand last minute ingehaald waardoor hij kampioen werd. Goed gedaan!')
      else:
-        print('fout!')
+        print('Dat is fout!')
  
      antwoord=input('Vraag 2: Hoeveel wereldkampioenen hebben we nu op de grid?\n')
      if antwoord.lower()=='4':
         punten += 1
-        print('goed')
+        print('De huidige coureurs zijn: Fernando Alonso, Max Verstappen, Sebastian Vettel en Lewis Hamilton. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 3: Wat was het belangrijke onderdeel van de Brawn GP auto waardoor het team de beide kampioenschappen heeft weten te winnen 2009?(GEEF ANTWOORD IN HET ENGELS)\n')
      if antwoord.lower()=='double diffuser' or antwoord.lower()=='double diffuser':
         punten += 1
-        print('goed')
+        print('Dit onderdeel was een van de grootste technologische inovaties ooit. Dit leverde Jenson Button zijn eerste en enige kampioenschap op. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 4: In de Formule 1 heeft het sigaretten merk Marlboro 4 teams gesponsord. Welk team heeft dit merk naast Ferrari, Mclaren en Iso-Marlboro op hun auto gehad? \n\n(a)BRM\n(b)Jordan\n(c)Williams\n(d)Toyota')
      if antwoord.lower()=='a':
         punten += 1
-        print('goed')
+        print('BRM heeft tijdens hun tijd met de sponsor een bijna identieke livery gehad die de Mclaren een aantal jaar later heeft gebruikt. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 5: Wie is de eerste Finse wereldkampioen?\n')
      if antwoord.lower()=='keke rosberg' or antwoord.lower()=='keke rosberg':
         punten += 1
-        print('goed')
+        print('Keke Rosberg werd in 1982 kampioen, later heeft zijn zoon Nico Rosberg in 2016 onder Duitse nationaliteit ook een kampioenschap gewonnen. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 6: Wie was de laatste wereldkampioen met Ferrari?\n')
      if antwoord.lower()=='kimi raikkonen' or antwoord.lower()=='kimi raikkonen':
         punten += 1
-        print('goed')
+        print('Kimi Raikkönen heeft in het 2007 seizoen zijn eerste en laatste kampioenschap gewonnen. Hiermee heeft hij gedaan wat Felippe Massa vorig seizoen niet heeft weten te doen. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 7: Welke coureur wordt geschat als de beste allertijde? \n\n(a)Niki Lauda\n(b)Michael Schumacher\n(c)Ayrton Senna\n(d)Lewis Hamilton')
-     if antwoord.lower()=='c' or antwoord.lower()=='b':
+     if antwoord.lower()=='c':
         punten += 1
-        print('goed')
+        print('Dit is overduidelijk de beste coureur! Goed gedaan!')
+     elif antwoord.lower()=='b':
+         print('Deze coureur is ook een van de beste. Goed gedaan!')
      else:
-        print('fout')
+        print('Dat is fout!')
 
      antwoord=input('Vraag 8: Wie heeft de snelste ronde ooit neergezet?\n')
      if antwoord.lower()=='juan pablo montoya' or antwoord.lower()=='juan pablo montoya':

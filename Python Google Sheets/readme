@@ -1,0 +1,6 @@
+gc = gspread.service_account(filename='credentials.json') 
+sh = gc.open('User')
+worksheet = sh.sheet1
+
+res = worksheet.get_all_records()
+print(res)
